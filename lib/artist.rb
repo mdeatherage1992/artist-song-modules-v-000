@@ -4,6 +4,7 @@ require_relative '../lib/concerns/findable'
 class Artist
   extend Memorable
   extend Findable
+  extend Paramable
   attr_accessor :name
   attr_reader :songs
 
